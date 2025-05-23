@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <fieldset>
+        <h1>PERFIL DO PACIENTE</h1>
+        </fieldset>
+    </header>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend> </legend>
+            <label for="nome">  Nome do paciente </label> <br>
+            <input type="text" name="nome" id="nome"> <br>
+        </fieldset>
+
+        <fieldset>
+            <label for="1consulta">  Data e horário da primeira consulta: </label> <br>
+            <input type="datetime-local" name="dath" id="dath"> <br>
+        </fieldset>
+        
+        <fieldset>
+            <label for="SUS">  SUS </label> 
+            <input type="radio" name="nasc" id="nasc">
+            <label for="Privado">  Privado </label> 
+            <input type="radio" name="nasc" id="nasc">
+        </fieldset>
+
+        <fieldset>
+            <label for="unidade de saude">  Unidade de saúde de referência: </label> 
+            <input type="text" name="unidadesaude" id="unidadesaude">
+        </fieldset>
+       
+        <fieldset>
+                     
+            <label for="text">É acompanhado por alguem farmaceutico?</label> 
+            <label for="text">sim</label> 
+            <input type="radio" name="acompanhamentofarmaceuicosim" id="acompanhamentofarmaceuicosim">
+            <label for="text">não</label> 
+            <input type="radio" name="acompanhamentofarmaceuiconao" id="acompanhamentofarmaceuiconao">
+            <label for="text">Onde?</label> 
+            <input type="text" name="onde" id="onde">
+        </fieldset>
+            
+        <fieldset>
+            <label for="text">Data de nascimento:</label> 
+            <input type="date" name="datanas" id="datanasc">
+            <label for="text">Idade:</label>
+            <input type="number" name="idade" id="idade">
+        </fieldset>
+<!--
+        <fieldset>
+            <label for="Genero">Gênero:</label> 
+            <input list="Genero">
+            <select id="Genero" name="genero">
+                <option value="Masculino"> Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outros">Outros</option>
+            </select>
+        </fieldset> 
+        -->
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
